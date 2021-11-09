@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomee>
+    <Resource id="jdbc/datasource" type="javax.sql.DataSource">
+        JdbcDriver = oracle.jdbc.OracleDriver
+        JdbcUrl = jdbc:oracle:thin:@ec2-34-212-34-81.us-west-2.compute.amazonaws.com:1521:XE
+        UserName = olatam
+        Password = olatam
+        jtaManaged = true
+    </Resource>
+</tomee>

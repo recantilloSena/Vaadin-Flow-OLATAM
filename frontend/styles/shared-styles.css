@@ -1,0 +1,31 @@
+/*
+   CSS styling examples for the Vaadin app.
+   Visit https://vaadin.com/docs/flow/theme/theming-overview.html and
+   https://vaadin.com/themes/lumo for more information.
+*/
+
+/* Example: CSS class name to center align the content . */
+
+
+
+html {
+
+}
+
+[theme~="dark"] {
+}
+
+
+paper-toggle-button {
+    --paper-toggle-button-checked-bar-color:  var(--paper-green-500);
+    --paper-toggle-button-checked-button-color:  var(--lumo-error-color);
+    --paper-toggle-button-checked-ink-color: var(--paper-green-500);
+    --paper-toggle-button-unchecked-bar-color:  var(--paper-teal-500);
+    --paper-toggle-button-unchecked-button-color:  var(--paper-teal-500);
+    --paper-toggle-button-unchecked-ink-color: var(--paper-teal-500);
+}
+
+
+.oracle {
+    color: rgb(255,0,0);
+}
